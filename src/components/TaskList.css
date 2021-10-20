@@ -1,0 +1,32 @@
+.todos-container{
+   margin: 1rem;
+   padding: 2rem;
+   border: 1px solid #fff;
+}
+.todo-container{
+   margin: 2rem;
+   padding: 2rem;
+   border: 1px solid #646464;
+   border-radius: 9px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.todo-container > *{
+   background-color: transparent;
+}
+.todo-container.complete{
+   background-color: #5BCC15;
+}
+.todo-container.not-complete{
+   background-color: #D00000;
+}
+
+.title{
+   font-size: 24px;
+}
+.select-field{
+   padding: 1rem 3rem;
+   font-size: 16px;
+}

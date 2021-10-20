@@ -1,0 +1,22 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+:root {
+  --background: #2F2F2F;
+  --font : 'Karla', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background);
+  color : #fff;
+  font-weight: 400;
+  font-family: var(--font);
+  transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.container{
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 0 36px;
+}

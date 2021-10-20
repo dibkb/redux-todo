@@ -1,0 +1,27 @@
+form {
+  margin: 1rem;
+  padding: 2rem 0;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-evenly;
+}
+form > * {
+  margin: 0 1rem;
+}
+form > input {
+  padding: 1rem;
+  width: 50%;
+  font-size: 16px;
+  border-radius: 9px;
+}
+form > button {
+  width: 21%;
+  font-size: 21px;
+  border: none;
+  background-color: #f26516;
+  border-radius: 9px;
+  cursor: pointer;
+}
+form > button:hover {
+  background-color: red;
+}
